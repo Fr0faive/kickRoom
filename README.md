@@ -18,7 +18,7 @@ struct wpn_data {
 };
 
 int main() {
-	// Sebuah room game di mana penggunaan senjata Shotgun tidak diperkenankan
+	// Sebuah program scan room game di mana penggunaan senjata Shotgun tidak diperkenankan
 	cout << "=== Don't Use Shotgun Weapon ==="<<endl;
     wpn_data wpn[] {
         {
@@ -55,11 +55,13 @@ int main() {
     
     for (int i=0; i<5;i++) {
         if (wpn[i].tipe_wpn == "Shotgun") {
-            continue;
             cout << "User " << wpn[i].nama_user << " di-kick karena telah menggunakan Shotgun";
+	    break;
         }
         cout << "User " << wpn[i].nama_user << ", menggunakan " << wpn[i].nama_wpn << ", tipe " << wpn[i].tipe_wpn << endl;
     }
 }
 ```
-#Pemilihan tiket kereta
+![image](https://user-images.githubusercontent.com/105912788/169553896-6814b208-87ee-49cb-ad21-ad65fe7ae38a.png)
+
+## Pemilihan tiket kereta
