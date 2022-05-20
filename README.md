@@ -11,10 +11,12 @@ struct wpn_data {
 };
 
 int main() {
+	// Sebuah room game di mana penggunaan senjata Shotgun tidak diperkenankan
+	cout << "=== Don't Use Shotgun Weapon ==="<<endl;
     wpn_data wpn[] {
         {
             1,
-            "Andhika"
+            "Andhika",
             "AK-47",
             "AssaultRifle",
         },
@@ -44,11 +46,11 @@ int main() {
         }
     };
     
-    for (int i=0; i<=5;i++) {
+    for (int i=0; i<5;i++) {
         if (wpn[i].tipe_wpn == "Shotgun") {
-            cout << "User dengan nama : " << wpn[i].nama_user << endl << "Telah menggunakan Shotgun";
-            break;
+            continue;
+            cout << "User " << wpn[i].nama_user << " di-kick karena telah menggunakan Shotgun";
         }
-        cout << "User " << wpn[i].nama_user << " menggunakan " << wpn[i].nama_wpn << "tipe " << wpn[i].tipe_wpn << endl;
+        cout << "User " << wpn[i].nama_user << ", menggunakan " << wpn[i].nama_wpn << ", tipe " << wpn[i].tipe_wpn << endl;
     }
 }
