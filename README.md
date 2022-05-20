@@ -7,6 +7,10 @@ Repo ini bertujuan untuk menyimpan tugas Looping
 
 ## KickRoom
 Program kick otomatis dari room yang tidak sesuai ketentuan
+### Compiler Online :
+[KickRoom](https://onlinegdb.com/sOV5BFAp9A)
+
+### Source Code : 
 ```
 #include <iostream>
 using namespace std;
@@ -66,8 +70,12 @@ int main() {
 ![image](https://user-images.githubusercontent.com/105912788/169553896-6814b208-87ee-49cb-ad21-ad65fe7ae38a.png)
 
 ## Pemilihan tiket kereta
-Filter Harga tiket sesuai input pengguna
+Filter Harga tiket sesuai input pengguna (Daerah Bandung)
 
+### Compiler Online :
+[Tiket Kereta](https://onlinegdb.com/aVCwmVQ_lP)
+
+### Source Code : 
 ```
 #include <iostream>
 using namespace std;
