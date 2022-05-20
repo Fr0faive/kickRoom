@@ -1,5 +1,3 @@
-# kickRoom
-
 #include <iostream>
 using namespace std;
 
