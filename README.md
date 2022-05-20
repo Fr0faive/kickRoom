@@ -51,4 +51,4 @@ int main() {
         }
         cout << "User " << wpn[i].nama_user << " menggunakan " << wpn[i].nama_wpn << "tipe " << wpn[i].tipe_wpn << endl;
     }
-}```
+}
