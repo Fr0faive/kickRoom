@@ -1,4 +1,11 @@
-#KickRoom
+# Tentang Repo ini
+Repo ini bertujuan untuk menyimpan tugas Looping
+
+## Social Media
+* [Instagram](https://www.instagram.com/fai.kryz/)
+* [Facebook](https://www.facebook.com/FaikarMochT)
+
+## KickRoom
 ```
 #include <iostream>
 using namespace std;
