@@ -65,6 +65,7 @@ int main() {
         }
         cout << "User " << wpn[i].nama_user << ", menggunakan " << wpn[i].nama_wpn << ", tipe " << wpn[i].tipe_wpn << endl;
     }
+    return 0;
 }
 ```
 ![image](https://user-images.githubusercontent.com/105912788/169553896-6814b208-87ee-49cb-ad21-ad65fe7ae38a.png)
