@@ -8,7 +8,7 @@ struct wpn_data {
     string nama_user;
     string nama_wpn;
     string tipe_wpn;
-}
+};
 
 int main() {
     wpn_data wpn[] {
@@ -42,12 +42,13 @@ int main() {
             "Glock",
             "SecondaryRifle",
         }
-    }
+    };
     
-    for (int i=0; i <=5;i++) {
+    for (int i=0; i<=5;i++) {
         if (wpn[i].tipe_wpn == "Shotgun") {
             cout << "User dengan nama : " << wpn[i].nama_user << endl << "Telah menggunakan Shotgun";
+            break;
         }
-        cout << "User "wpn[i].
+        cout << "User " << wpn[i].nama_user << " menggunakan " << wpn[i].nama_wpn << "tipe " << wpn[i].tipe_wpn << endl;
     }
 }
