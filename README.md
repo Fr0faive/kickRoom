@@ -6,6 +6,7 @@ Repo ini bertujuan untuk menyimpan tugas Looping
 * [Facebook](https://www.facebook.com/FaikarMochT)
 
 ## KickRoom
+Program kick otomatis dari room yang tidak sesuai ketentuan
 ```
 #include <iostream>
 using namespace std;
